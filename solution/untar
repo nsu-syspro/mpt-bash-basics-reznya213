@@ -1,2 +1,2 @@
-mkdir $1.unpucked
+if [[ -d '$1.unpucked']]; then else mkdir $1.unpucked
 tar -xf $1 > $1.unpucked
