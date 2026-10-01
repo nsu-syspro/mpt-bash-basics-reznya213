@@ -1,1 +1,2 @@
-tar -xf $1
+mkdir $1.unpucked
+tar -xf $1 > $1.unpucked
