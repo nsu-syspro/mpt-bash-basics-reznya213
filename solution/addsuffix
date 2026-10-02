@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+suffix="$1"
+i=2
+while ((i <= $#)) do
+  mv "${!i}" "${!i}$1"; ((i=i+1)); done
